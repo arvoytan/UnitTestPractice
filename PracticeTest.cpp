@@ -22,7 +22,7 @@ TEST(PracticeTest, is_simple_palindrome)
     bool actual = obj.isPalindrome("aa");
     ASSERT_TRUE(actual);
 		actual = obj.isPalindrome("a1hjufdkamsdlkrfg;lkjk");
-		ASSERT_TRUE(actual);
+		ASSERT_FALSE(actual);
 
 }
 
