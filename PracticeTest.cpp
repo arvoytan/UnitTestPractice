@@ -4,6 +4,8 @@
 
 #include <gtest/gtest.h>
 #include "Practice.h"
+#include<iostream>
+using namespace std;
 
 class PracticeTest : public ::testing::Test
 {
