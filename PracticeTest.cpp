@@ -33,5 +33,10 @@ TEST(PracticeTest, sortDescending)
 		int c = 2;
 		Practice obj;
 		obj.sortDescending(a,b,c);
-		cout<<a<<" "<<b<<" "<<c<<" "<<endl;
+		//cout<<a<<" "<<b<<" "<<c<<" "<<endl;
+		bool value;
+		if(a ==2 &&b==1&&c==0){
+			value =true;
+		}
+		 ASSERT_TRUE(value);
 }
