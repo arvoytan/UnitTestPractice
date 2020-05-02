@@ -36,7 +36,32 @@ TEST(PracticeTest, sortDescending)
 		//cout<<a<<" "<<b<<" "<<c<<" "<<endl;
 		bool value;
 		if(a ==2 &&b==1&&c==0){
-			value =true;
+			value = true;
 		}
-		 ASSERT_TRUE(value);
+		else{
+			value = false;
+		}
+		ASSERT_TRUE(value);
+		a = 0;
+		b = 2;
+		c = 1;
+		if(a ==2 &&b==1&&c==0){
+			value = true;
+		}
+		else{
+			value = false;
+		}
+		ASSERT_TRUE(value);
+		a = 2;
+		b = 0;
+	  c = 1;
+		if(a ==2 &&b==1&&c==0){
+			value = true;
+		}
+		else{
+		 value = false;
+		}
+		ASSERT_TRUE(value);
+
+
 }
