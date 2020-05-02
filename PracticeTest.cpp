@@ -19,4 +19,17 @@ TEST(PracticeTest, is_simple_palindrome)
     Practice obj;
     bool actual = obj.isPalindrome("aa");
     ASSERT_TRUE(actual);
+		actual = obj.isPalindrome("a1hjufdkamsdlkrfg;lkjk");
+		ASSERT_TRUE(actual);
+
+}
+
+TEST(PracticeTest, sortDescending)
+{
+		int a = 0;
+		int b = 1;
+		int c = 2;
+		Practice obj;
+		obj.sortDescending(a,b,c);
+		cout<<a<<" "<<b<<" "<<c<<" "<<endl;
 }
